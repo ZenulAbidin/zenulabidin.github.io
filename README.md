@@ -1,9 +1,3 @@
-## Some test header
-### Ali Sherief's Website
-
-## Under Construction
-I'm in the process of creating my website. It should be finished in a few weeks.
-
 ## Welcome to GitHub Pages
 
 You can use the [editor on GitHub](https://github.com/ZenulAbidin/zenulabidin.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
