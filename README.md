@@ -1,5 +1,7 @@
 ## Ali Sherief's Website
 
+*"He who makes the kernel controls the world."* - Ali Sherief
+
 # Under Construction
 I'm in the process of creating my website. It should be finished in a few weeks.
 
