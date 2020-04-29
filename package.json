@@ -1,0 +1,52 @@
+{
+  "homepage": "http://zenulabidin.github.io/",
+  "name": "website-staging-xr94o",
+  "version": "1.0.0",
+  "description": "",
+  "keywords": [],
+  "main": "src/index.js",
+  "dependencies": {
+    "chart.js": "2.9.3",
+    "classnames": "2.2.6",
+    "gulp": "4.0.2",
+    "gulp-append-prepend": "1.0.8",
+    "moment": "2.24.0",
+    "node-sass": "4.13.1",
+    "nouislider": "14.2.0",
+    "perfect-scrollbar": "1.5.0",
+    "react": "16.13.1",
+    "react-bootstrap-switch": "15.5.3",
+    "react-chartjs-2": "2.9.0",
+    "react-datetime": "2.16.3",
+    "react-dom": "16.13.1",
+    "react-router-dom": "5.1.2",
+    "react-scripts": "3.4.1",
+    "reactstrap": "8.4.1",
+    "react-circular-progressbar": "2.0.3"
+  },
+  "devDependencies": {
+    "gh-pages": "^2.2.0",
+    "typescript": "3.8.3"
+  },
+  "scripts": {
+    "start": "HOST=95.217.11.19 PORT=3001 react-scripts start",
+    "build": "react-scripts build && gulp licenses",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "install:clean": "rm -rf node_modules/ && rm -rf package-lock.json && npm install && npm start",
+    "compile-sass": "node-sass src/assets/scss/blk-design-system-react.scss src/assets/css/blk-design-system-react.css",
+    "minify-sass": "node-sass src/assets/scss/blk-design-system-react.scss src/assets/css/blk-design-system-react.min.css --output-style compressed",
+    "map-sass": "node-sass src/assets/scss/blk-design-system-react.scss src/assets/css/blk-design-system-react.css --source-map true"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}
